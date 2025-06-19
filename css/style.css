@@ -3,9 +3,7 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-img {
-    display:block;
-}
+
 .contacts .contact:hover,
 .contacts .contact:focus {
     color: #404bbf;
@@ -21,6 +19,21 @@ header {
     width: 1440px;
     height: 72px;
 }
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px 0 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+a {
+    display: block;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -32,6 +45,11 @@ header {
     color: #4d5ae5;
     padding-left: 156px;
     padding-top: 24px;
+    margin-right: 76px;
+}
+.nav-menu {
+    display: flex;
+    gap: 40px;
 }
 
 .button:hover,
@@ -68,24 +86,9 @@ button {
     font-weight: 700;
 }
 
-.nav-menu {
-    font-size: 16px;
-    color: #2e2f42;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    display: flex;
-    padding-left: 76px;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 40px;
-        padding-left: 76px;
-        padding-top: 24px;
-}
-
 .nav {
     color: #2e2f42;
+    padding: 24 0 24 0;
 }
 
 .contacts {
@@ -93,6 +96,7 @@ button {
     line-height: 1.5;
     color: #434455;
     display: flex;
+    gap: 40px;
 }
 
 .title-1 {
@@ -111,6 +115,7 @@ button {
     background: #2e2f42;
     width: 1440px;
     height: 600px;
+    padding: 188px 0 188px 0;
 }
 
 .button {
@@ -293,39 +298,6 @@ h1, h2, h3, h4, h5, h6, p, ul, a {
     font-size: 1em;
     font-weight: normal;
     list-style: none;
-}
-.page-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-menu .nav {
-        padding: 8px 12px;
-        font-size: 14px;
-        text-transform: uppercase;
-}
-nav {
-    display: flex;
-}
-        
-.contacts .contact {
-        padding: 8px 12px;
-        font-size: 14px;
-        text-transform: uppercase;
-}
-.page-contacts .contacts {
-    display: flex;
-}
-.contact-mail {
-    padding-top: 24px;
-    padding-left: 332px;
-}
-.contact-phone {
-    padding-top: 24px;
-    padding-left: 40px;
-}
-address.contacts ul.contacts {
-    display: flex;
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
