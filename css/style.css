@@ -17,20 +17,20 @@ body {
 header {
     background: #fff;
     width: 1440px;
-    height: 72px;
 }
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
-    display: flex;
+.header-container.container {
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .navigation {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 img {
     display: block;
@@ -47,9 +47,9 @@ img {
     margin-right: 76px;
 }
 .nav-menu {
-    display: flex;
     gap: 40px;
     padding: 24px 0 24px 0;
+    display: flex;
 }
 
 .button:hover,
@@ -82,12 +82,14 @@ img {
     padding: 24px 0 24px 0;
 }
 
+
 .contacts {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    display: flex;
     gap: 40px;
+    display: flex;
+    padding: 24px 0;
 }
 
 .title-one {
@@ -98,6 +100,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .title {
@@ -126,7 +130,7 @@ img {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
-   
+    margin: 0 auto;
 }
 
 .my-work {
@@ -160,7 +164,7 @@ img {
     letter-spacing: 0.02em;
 }
 .visually-hidden {
-position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
@@ -175,9 +179,10 @@ position: absolute;
 .advantages {
     background: #fff;
     width: 1128px;
-    height: 104px;
     gap: 8px;
     padding: 120px 0 120px 0;
+    margin-left: 156px;
+    
 }
 .adventag {
     display: flex;
@@ -252,9 +257,9 @@ position: absolute;
 }
 .portfolio {
     width: 1128px;
-    height: 1000px;
     padding: 120px 0 120px 0;
     margin-bottom: 72px;
+    margin-left: 156px ;
 }
 .my-portfolio {
     flex-wrap: wrap;
@@ -278,7 +283,6 @@ p {
 footer {
     background: #2e2f42;
     width: 1440px;
-    height: 312px;
 }
 
 .studio-footer {
@@ -290,6 +294,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
 a {
     text-decoration: none;
